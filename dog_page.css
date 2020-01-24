@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(13, 62, 117);
+  padding: 20px;
+  border-color: aqua;
+  border: solid;
+  border-bottom: 12em;
+  color: white;
+  height: 6rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+.dog-tags li {
+  background: rgb(147, 221, 239);
+  list-style-type: none;
+  font-size: 12px;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+h3 {
+  padding-bottom: 7px;
+}
+
+.primary-text {
+  padding: 12px;
+}
+
+body {
+  font-family: Open Sans;
+  padding: 12px;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dog-box {
+  width: 300px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.navbar {
+  display: flex;
+
+  
+}
+
+.navbar-donate {
+    flex;1;
+  }
+
+.navbar-volunteer {
+    flex:1;
+    
+  }
+
+.navbar-location {
+  flex:1;
+}
+
+lineargradientofacoloroveriagesbackground: linear-gradient(
+    rgba(30, 9, 110, 0.8)
+  ),
+  second color, no-repeat center/cover url("");
+
+/* place this for notes that don't show up*/
