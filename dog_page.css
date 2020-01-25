@@ -56,13 +56,14 @@ body {
 .navbar {
     flex: 1 1 10px;
     color: white;
-    height: 300px;
+    height: 250px;
     font-family: sans-serif;
     font-size: 3rem;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
 }
 
 .donate {
