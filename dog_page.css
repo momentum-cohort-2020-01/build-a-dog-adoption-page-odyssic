@@ -1,78 +1,81 @@
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 header {
-  background-color: rgb(13, 62, 117);
-  padding: 20px;
-  border-color: aqua;
-  border: solid;
-  border-bottom: 12em;
-  color: white;
-  height: 6rem;
+    background-color: rgb(13, 62, 117);
+    padding: 20px;
+    border-bottom: 2px solid aqua;
+    color: white;
+    height: 6rem;
 }
 
 img {
-  max-width: 100%;
+    max-width: 100%;
 }
 
 .dog-tags li {
-  background: rgb(147, 221, 239);
-  list-style-type: none;
-  font-size: 12px;
-  display: inline-block;
-  border-radius: 10px;
+    background: rgb(147, 221, 239);
+    list-style-type: none;
+    font-size: 12px;
+    display: inline-block;
+    border-radius: 10px;
 }
 
 h3 {
-  padding-bottom: 7px;
+    padding-bottom: 7px;
 }
 
 .primary-text {
-  padding: 12px;
+    padding: 12px;
 }
 
 body {
-  font-family: Open Sans;
-  padding: 12px;
+    font-family: Open Sans;
+    padding: 12px;
 }
 
 .main-container {
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .dog-box {
-  width: 300px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
+    width: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar-container {
+    display: flex;
 }
 
 .navbar {
-  display: flex;
-
-  
+    flex: 1 1 10px;
+    color: rgb(182, 169, 169);
+    font-family: sans-serif;
+    font-size: 3rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid red;
+    height: 300px;
 }
 
 .navbar-donate {
-    flex;1;
-  }
-
-.navbar-volunteer {
-    flex:1;
-    
-  }
-
-.navbar-location {
-  flex:1;
+    background-image: url("starter_files/images/donate.jpg");
 }
 
-lineargradientofacoloroveriagesbackground: linear-gradient(
-    rgba(30, 9, 110, 0.8)
-  ),
-  second color, no-repeat center/cover url("");
+.navbar-volunteer {
+    background: linear-gradient (rgba(30, 30, 30, 0.1), rgba(30, 30, 30, 0.1)), url(starter_files/images/volunteer.jpg);
+}
+
+.navbar-location {
+    background: linear-gradient (rgba(108, 81, 148, 0.3), rgba(108, 81, 148, 0.3)), url(starter_files/images/location.png) center/cover;
+}
+
 
 /* place this for notes that don't show up*/
