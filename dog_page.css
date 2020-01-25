@@ -7,7 +7,7 @@
 header {
     background-color: rgb(13, 62, 117);
     padding: 20px;
-    border-bottom: 2px solid aqua;
+    border-bottom: 4px solid rgb(144, 221, 240);
     color: white;
     height: 6rem;
 }
@@ -55,26 +55,26 @@ body {
 
 .navbar {
     flex: 1 1 10px;
-    color: rgb(182, 169, 169);
+    color: white;
+    height: 300px;
     font-family: sans-serif;
     font-size: 3rem;
-    display: flex;
     text-align: center;
+    display: flex;
+    align-items: center;
     justify-content: center;
-    border: 2px solid red;
-    height: 300px;
 }
 
-.navbar-donate {
-    background-image: url("starter_files/images/donate.jpg");
+.donate {
+    background: linear-gradient( rgba(30, 30, 30, 0.1), rgba(30, 30, 30, 0.8), rgba(30, 30, 30, 0.1)), url(turtle.jpg) center/cover;
 }
 
-.navbar-volunteer {
-    background: linear-gradient (rgba(30, 30, 30, 0.1), rgba(30, 30, 30, 0.1)), url(starter_files/images/volunteer.jpg);
+.volunteer {
+    background: linear-gradient( rgba(30, 30, 30, 0.1), rgba(30, 30, 30, 0.8), rgba(30, 30, 30, 0.1)), url(panda.jpg) center/cover;
 }
 
-.navbar-location {
-    background: linear-gradient (rgba(108, 81, 148, 0.3), rgba(108, 81, 148, 0.3)), url(starter_files/images/location.png) center/cover;
+.location {
+    background: linear-gradient( rgba(30, 30, 30, 0.1), rgba(30, 30, 30, 0.8), rgba(30, 30, 30, 0.1)), url(parrot.jpg) center/cover;
 }
 
 
