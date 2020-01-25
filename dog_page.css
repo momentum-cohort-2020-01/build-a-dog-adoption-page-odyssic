@@ -66,15 +66,15 @@ body {
 }
 
 .donate {
-    background: linear-gradient( rgba(30, 30, 30, 0.1), rgba(30, 30, 30, 0.8), rgba(30, 30, 30, 0.1)), url(turtle.jpg) center/cover;
+    background: linear-gradient( rgba(30, 30, 30, 0.1), rgba(30, 30, 30, 0.8), rgba(30, 30, 30, 0.1)), url(starter_files/images/donate.jpg) center/cover;
 }
 
 .volunteer {
-    background: linear-gradient( rgba(30, 30, 30, 0.1), rgba(30, 30, 30, 0.8), rgba(30, 30, 30, 0.1)), url(panda.jpg) center/cover;
+    background: linear-gradient( rgba(30, 30, 30, 0.1), rgba(30, 30, 30, 0.8), rgba(30, 30, 30, 0.1)), url(starter_files/images/volunteer.jpg) center/cover;
 }
 
 .location {
-    background: linear-gradient( rgba(30, 30, 30, 0.1), rgba(30, 30, 30, 0.8), rgba(30, 30, 30, 0.1)), url(parrot.jpg) center/cover;
+    background: linear-gradient( rgba(30, 30, 30, 0.1), rgba(30, 30, 30, 0.8), rgba(30, 30, 30, 0.1)), url(starter_files/images/location.png) center/cover;
 }
 
 
